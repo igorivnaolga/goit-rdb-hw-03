@@ -1,0 +1,11 @@
+1. 
+ - SELECT * FROM products;
+ - SELECT name, phone from shippers;
+ 2.
+ - SELECT AVG(price) FROM products;
+ - SELECT MAX(price) FROM products;
+ - SELECT MIN(price) FROM products;
+ 3. 
+SELECT distinct category_id, price FROM products
+order by price DESC
+LIMIT 10;
